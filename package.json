@@ -1,0 +1,15 @@
+{
+  "name": "finaljs",
+  "version": "1.0.0",
+  "description": "Proyecto Final Curso JS Coder",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sergio Rivas Osano",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "luxon": "^3.2.1"
+  }
+}
