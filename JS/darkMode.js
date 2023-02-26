@@ -1,4 +1,3 @@
-
 let botonDarkMode = document.getElementById("botonDarkMode")
 let botonLightMode = document.getElementById("botonLightMode")
 let eliminarMode = document.getElementById("eliminarMode")

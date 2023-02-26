@@ -125,7 +125,7 @@ function agregarAlCarrito(producto) {
 
         Swal.fire({
             title: 'Ha agregado un producto',
-            text: `El producto ${producto.nombre} de ${producto.marca} ha sido agregado`,
+            text: `El producto ${producto.nombre} de la marca ${producto.marca} ha sido agregado`,
             icon: "info",
             confirmButtonText: "Muchas Gracias",
             confirmButtonColor: "green",
@@ -167,7 +167,7 @@ function finalizarComprar(array) {
                 title: 'Compra realizada',
                 icon: 'success',
                 confirmButtonColor: 'green',
-                text: `Muchas gracias por su compra. El total de la compra fue de $ ${totalFinalizar}`,
+                text: `Muchas gracias por su compra. El total de la compra fue de $: ${totalFinalizar}`,
             })
             productosEnCarrito = []
             localStorage.removeItem("carrito")
@@ -175,7 +175,7 @@ function finalizarComprar(array) {
             Swal.fire({
                 title: 'Compra no realizada',
                 icon: 'info',
-                text: `La compra no ha sido realizada! Atención sus productos siguen en el carrito: `,
+                text: `La compra no se ha podido efectuar. `,
                 confirmButtonColor: 'green',
                 timer: 3500
             })
