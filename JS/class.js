@@ -49,6 +49,6 @@ if (localStorage.getItem("gondola")) {
     }
     console.log(gondola)
 } else {
-    console.log("Seteamos por primera vez, entra sólo en la primera vez")
+    console.log("Seteamos")
     cargarGondola()
 }
